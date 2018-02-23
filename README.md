@@ -27,6 +27,7 @@ To configure the RHEL 7 host to run this tool:
 
 * Login to the RHEL 7 host
 * If not already installed, install git by running 'yum install git', enter 'y' to confirm installation
+* If not already installed, install ruby by running 'yum install ruby', enter 'y' to confirm installation
 * Make whatever provisions are necessary for the host to access Github, e.g. set proxy environment variables http_proxy, https_proxy and no_proxy.
 * Disable GIT SSL certificate verification by running 'export GIT_SSL_NO_VERIFY=false'
 * Change to an appropriate directory to install the tool, it is suggested to use your own home directory and not root's
@@ -40,7 +41,7 @@ To configure the RHEL 7 host to run this tool:
 
 Version: N/A  
 Date: 2/22/2018+  
-Author: Jerome Gudknecht  
+Author: Jerome Gudknecht, XTechWare  
 Updates:
 * Framing  out project
 
